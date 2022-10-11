@@ -9,7 +9,6 @@
       color: 'yellow',
       text: 'hello',
     },
-    
   ]
   let copyNotes = [...notes]
   let count = notes.length
@@ -17,10 +16,7 @@
 
 <main>
   <Header />
-  <div>
-    {count} notas
-  </div>
-  <Dashboard />
+  <Dashboard {notes} />
 </main>
 
 <style>
