@@ -2,10 +2,12 @@
   export let notes
   import { each } from 'svelte/internal'
   import Note from './Note.svelte'
+  import NotePlaceholder from './NotePlaceholder.svelte'
 </script>
 
 <div class="Dashboard">
   <div class="notes-container">
+    <NotePlaceholder on:click />
     {#each notes as { title, color, text }}
       <Note {title} {color} {text} />
     {/each}
