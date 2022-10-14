@@ -1,7 +1,7 @@
 <script></script>
 
 <div class="Searcher">
-  <input type="text" name="" id="" placeholder="Buscar" />
+  <input type="text" name="" id="" placeholder="Buscar" on:input />
 </div>
 
 <style>

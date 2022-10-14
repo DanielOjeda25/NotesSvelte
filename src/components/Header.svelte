@@ -5,7 +5,7 @@
 
 <div class="Header">
   <Logo appName="Notitas" />
-  <Searcher />
+  <Searcher on:input />
 </div>
 
 <style>
